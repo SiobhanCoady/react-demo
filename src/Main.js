@@ -2,13 +2,21 @@
 // because jsx is converted to React.createElement function calls.
 import React from 'react';
 import HelloWorld from './HelloWorld';
+import BlueSquare from './BlueSquare';
 
 function Main (props) {
+  const style = {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center'
+  };
+
   return (
-    <div className="main">
+    <div style={style} className="main">
       <HelloWorld name="Paul" />
       <HelloWorld name="Johanna" />
       <HelloWorld name="Nathan" />
+      <BlueSquare />
     </div>
   );
 }
