@@ -6,7 +6,7 @@ function BlueSquare(props) {
     width: '100px',
     backgroundColor: 'blue'
   };
-  return <div style={style}></div>
+  return <div style={style} className="blue square"></div>
 }
 
 export default BlueSquare;
