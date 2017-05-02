@@ -3,6 +3,7 @@
 import React from 'react';
 import HelloWorld from './HelloWorld';
 import BlueSquare from './BlueSquare';
+import OrangeRectangle from './OrangeRectangle';
 
 function Main (props) {
   const style = {
@@ -13,10 +14,11 @@ function Main (props) {
 
   return (
     <div style={style} className="main">
+      <BlueSquare />
       <HelloWorld name="Paul" />
       <HelloWorld name="Johanna" />
       <HelloWorld name="Nathan" />
-      <BlueSquare />
+      <OrangeRectangle />
     </div>
   );
 }
