@@ -1,5 +1,7 @@
 import React from 'react';
-import BlueSquare from './BlueSquare';
+// Using braces when importing will allow access to exports that are not
+// default
+import { BlueSquare } from './Square';
 
 function OrangeRectangle(props) {
   const style = {
