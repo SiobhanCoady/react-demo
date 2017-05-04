@@ -33,6 +33,8 @@ function Main (props) {
         ['Annie', 'Fannie', 'Cuddles', 'Jake', 'Mozart', 'Abby']
       } />
       <ShadesOfGrey />
+      <Shape />
+      <Shape colors={['Red', 'Green', 'Yellow']} />
     </div>
   );
 }
